@@ -3,6 +3,7 @@ title: "Hugo Setup"
 date: 2022-12-10T22:01:42+09:00
 categories : [ "Docs", "hugo" ]
 tags : [ "hugo", "setup", "note" ]
+draft : true
 ---
 
 # hugoをつかおう
@@ -95,7 +96,7 @@ hugo new siteでつくったフォルダ
 
 ```hugo server```を実行すると、```localhost:1313```で確認できるよって言われる(と思う)ので、ブラウザで確認。確認できたらできてるはず。
 
-```hugo server -D```とすると、terminalを占有しないのでよいかも。個人的には停止し忘れそうなのでオプションはあんまつけない。
+```hugo server -D```とすると、draft状態の記事も確認可能。個人的には、draftを消し忘れそうなので```-D```はあんまつけない。
 
 ## サイトを生成
 
