@@ -4,6 +4,7 @@
 
 theme = "blowfish"
 baseURL = "https://e205721harukio.github.io/hugo-blog/"
+canonifyurls = true
 defaultContentLanguage = "ja"
 
 enableRobotsTXT = true
