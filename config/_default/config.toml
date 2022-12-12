@@ -3,7 +3,8 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://your_domain.com/"
+baseURL = "/"
+title = "myBlog"
 defaultContentLanguage = "ja" #"en"
 
 enableRobotsTXT = true
