@@ -3,13 +3,13 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "/"
-title = "myBlog"
-defaultContentLanguage = "ja" #"en"
+baseURL = "https://e205721harukio.github.io/hugo-blog/"
+defaultContentLanguage = "ja"
 
 enableRobotsTXT = true
 paginate = 20
 summaryLength = 30
+hasCJKLanguage = true
 
 buildDrafts = false
 buildFuture = false

@@ -19,28 +19,28 @@
 [[main]]
   name = "Blog"
   pageRef = "blog"     #   post以下においてるなら → "posts/blog"
-  weight = 20
+  weight = 10
 
 [[main]]
   name = "Note"
   pageRef = "note"
-  weight = 30
+  weight = 20
 
 [[main]]
   name = "Categories"
   pageRef = "categories"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 50
+  weight = 40
 
 [[main]]
   identifier = "github"
   pre = "github"
   url = "https://github.com/e205721HarukiO"
-  waight = 60
+  waight = 50
 
 # [[main]]
 #   identifier = "twitter"

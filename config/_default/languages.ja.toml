@@ -1,13 +1,13 @@
-languageCode = "en"
-languageName = "English"
-displayName = "EN"
-isoCode = "en"
+languageCode = "ja"
+languageName = "Japanese"
+displayName = "JP"
+isoCode = "ja"
 weight = 1
 rtl = false
 
 title = "hal blog(仮)"
 # logo = "img/logo.png"
-description = "hugo+blowfishでブログを作ってみる."
+description = "ブログ"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
@@ -16,7 +16,7 @@ dateFormat = "2 January 2006"
   name = "hal"
   image = "img/author.png"
   headline = "I'm only human"
-  bio = "A little bit about you"
+  # bio = "A little bit about you"
   links = [
     { github = "https://github.com/e205721HarukiO"}
   ]
