@@ -35,7 +35,7 @@ draft: true
 
 ## ブログの見た目の設定
 
-現在は```blowfish```というテーマを使用している。  
+現在は```blowfish```というテーマを使用している。導入もわかりやすく、見た目も良いと思う。  
 quick startのものをそのまま使っても十分使えるが、documentを読んで色々設定していく。
 
 [参考(blowfish)のGetting Started](https://nunocoracao.github.io/blowfish/docs/getting-started/)

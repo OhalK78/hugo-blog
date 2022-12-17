@@ -5,59 +5,59 @@ categories : [ "Docs", "hugo" ]
 tags : [ "hugo", "setup", "note" ]
 ---
 
-# hugoをつかおう
+# hugoでサイト生成
 
 hugoでブログサイトを作ってみる。  
-~~半年前とかにもやってたけど、メモが残ってない＆三日坊主で投げ出してたので、ほぼ覚えてない。~~  
-今回はちゃんと記録に残しておこうと思ったので書く。
+以下自分用のメモ。
 
 手順としては
 * hugoを入れる
 * hugoでサイトを作る
 * themeを入れる
 * 設定する
-* なんか書く
+* 何か書く
 * 確認する
 * サイト生成
 
 ## hugoを入れる
 
-homebrewでいいはず。```brew update```して、```brew install hugo```。  
-既に入ってるなら```brew upgrade hugo```とかする。
+homebrewで入れる。  
+```brew update```して、```brew install hugo```。  
+アップデートは```brew upgrade hugo```。
 
 ```hugo --version```して大丈夫そうならおk。
 
 
 ## hugoでサイトを作る。
 
-```hugo new site 作りたいフォルダ名```を実行すると、```作りたいフォルダ名```フォルダが生成される。
+```hugo new site name```を実行すると、```name```フォルダが生成される。
 
-```cd 作りたいフォルダ名```でフォルダに移動。
+```cd name```でフォルダに移動。
 
-で、たぶんtheme入れる時に必要になるので、```git init```しておこう。
+このタイミングで```git init```しておく。
 
 ## themeを入れる。
 
-```hugo theme```とかでggると、[hugoのthemeサイト](https://themes.gohugo.io)があるので、そこで使いたいものを探す。~~テーマありすぎで沼です~~
+```hugo theme```とかでggると、[hugoのthemeサイト](https://themes.gohugo.io)があるので、そこで使いたいものを探す。
 
-個人的に、検索機能がついてるとうれしくね？派閥の人間なのでついてそうなものを探した。
+個人的に、検索機能が手軽に使えるととうれしいので、検索機能が手軽に使えそうなテーマを探した。
 
-今回は[blow fish](https://themes.gohugo.io/themes/blowfish/)というthemeが目に入ったので、こちらを導入。カタカナでブルーフグって書いてあって、日本人の方？って思って選んだけどよくよく読んでたらどうやらスペイン？(確認したけどうろおぼえ)の方だった。まあdocumentは英語なので、問題なし。
+今回は[blow fish](https://themes.gohugo.io/themes/blowfish/)というthemeが目に入ったので、こちらを導入。coolなテーマだと思います。
 
-選んだら、その配布元で入れ方とか書いてある(Getting StartedとかQuick Startとか)ので、とりあえずそれ通りにやればよい。
+テーマを選んだら、その配布元で入れ方とか書いてある(Getting StartedやQuick Startとか)ので、それ通りにやればよい。
 
-hugo modで導入もできるみたいだけど、今回はgit submoduleで導入。特に理由はない。
+hugo modで導入もできるようだが、今回はgit submoduleがrecommendedだったのでgit submoduleで導入。
 
 ## 設定を書く
 
-正直テーマ配布元にある設定をそのままやっておけばよい。  
+テーマ配布元にある設定をそのままやっておけばよい。  
 最低限、```./config.toml```に```themes="テーマ名"```があれば動くはず。テーマ名とは、```themes/```以下のテーマのフォルダ名。
 
-これ自体もほぼパクリで、画像とかちょこちょこ文を変えたり、あとは言語の設定を日本語にできる(ってdocumentに書いてあった)ので、```languages="ja"```にしたり、フォルダ名の一部を```*_en_*```から```*_ja_*```にするなどした。
+このサイト自体もほとんど配布下の設定を流用している。画像や説明文を変えたり、言語の設定を日本語にできる(とdocumentに書いてあった)ので```languages="ja"```にしたり、フォルダ名の一部を```*_en_*```から```*_ja_*```にしたりするなどした。
 
 ## なんか書く
 
-hugoのブログは
+hugoでは
 ```
 hugo new siteでつくったフォルダ
 |- config/
@@ -70,34 +70,31 @@ hugo new siteでつくったフォルダ
     |- posts/
         |- _index.md  # posts/のトップページ
         |- hoge.md
-|- *
+|- その他
 ```
 のようなフォルダ構成になる。
 
-記事の作成ではコマンドを使う。  
-``` hugo new 作りたい記事名.md```をすると、```content/作りたい記事名.md```のように記事が生成される。  
-``` hugo new hoge/huga.md```とすると、```content/hoge/huga.md```と記事が生成される。このときhogeフォルダがなくても、hugoが勝手に作ってくれる。
+記事の作成にはコマンドを使う。  
+``` hugo new 作りたい記事名.md```をすると、```content/作りたい記事名.md```ファイルが生成される。  
+また、``` hugo new hoge/huga.md```とすると、```content/hoge/huga.md```ファイルが生成される。このときhogeフォルダがなくても、フォルダを作ってくれる。
 
 記事を生成したら書き込む。  
-```---```で囲まれているのは記事の設定的なやつ。titleとかはいじってもいいしいじらなくても。```Draft```は下書き設定で、```true```だと表示されないので、```false```にするか```Draft```ごと消す。  
+冒頭の```---```で囲まれている部分は記事の設定となる。```Draft```は下書き設定で、```true```だとサイト生成時に表示されないので、```false```にするか```Draft```ごと消す。  
 ```categories : [ "カテゴリ名" ]```や```tags : [ "タグ名", "タグ名" ]```のようにカテゴリやタグも設定できる。  
-この辺は設定でデフォルトをいじれる。```archetypes/default.md```をいじる。  
-今はやらないが、Draft消してcategories, tagsを書くようにするかも。
+この辺は設定でデフォルトをいじれる。```archetypes/default.md```がテンプレートになっている。  
 
-今回は動作確認ように、トップページとpostsページになんか書こう。
+動作確認用に、トップページとpostsページに何か書いてみる。
 
 ```hugo new _index.md```して、```vim content/_index.md```でなんか書く。  
-```hugo new posts/_index.md```, ```hugo new posts/my-first-post.md```してなんか書く。どれも```draft```を消すのを忘れないように。
-
-拡張子でわかる通り、hugoでは記事はmarkdownで書く。楽だね。
+```hugo new posts/_index.md```, ```hugo new posts/my-first-post.md```して開き、何かしらを書く。```draft```を消すかfalseにするのを忘れないように。
 
 ## 確認する
 
-```hugo server```を実行すると、```localhost:1313```で確認できるよって言われる(と思う)ので、ブラウザで確認。確認できたらできてるはず。
+```hugo server```を実行し、```localhost:1313```をブラウザで確認。
 
-```hugo server -D```とすると、draft状態の記事も確認可能。個人的には、draftを消し忘れそうなので```-D```はあんまつけない。
+```hugo server -D```とすると、draft状態の記事も確認可能。
 
 ## サイトを生成
 
-```hugo```と実行すれば```public```フォルダが生成され、それ以下に色々生成される。公開する時はpublicフォルダの中身を突っ込めば良いはず。実際にはgithubなどのCI/CLでよしなにする方が楽らしい。
+```hugo```と実行すれば```public```フォルダが生成され、それ以下に公開用のhtmlファイルなどが生成される。公開する時はpublicフォルダの中身をサーバーに配置するなどする。
 

@@ -1,5 +1,7 @@
 # hugo blog
 
+URL: https://e205721harukio.github.io/hugo-blog/
+
 ## 記事を書く
 ブログ作成は  
 ```hugo new blog/記事名.md```  
