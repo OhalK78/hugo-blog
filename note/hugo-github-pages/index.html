@@ -3,10 +3,10 @@
 <meta http-equiv=content-language content="ja">
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta http-equiv=x-ua-compatible content="ie=edge">
-<title>Hugo Setup &#183; hal blog(仮)</title>
-<meta name=title content="Hugo Setup &#183; hal blog(仮)">
+<title>Hugoで生成したサイトをGithub Pagesで公開する &#183; hal blog(仮)</title>
+<meta name=title content="Hugoで生成したサイトをGithub Pagesで公開する &#183; hal blog(仮)">
 <meta name=description content="ブログ">
-<link rel=canonical href=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/>
+<link rel=canonical href=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/>
 <link type=text/css rel=stylesheet href=https://e205721harukio.github.io/hugo-blog/css/main.bundle.min.abe623a84f8b65055473d7cab408f7de5bef8fcc27f3509bee384c6dd7108019f7f76cbeeb362827e2850b8ddd08e7402aa2c04eaa01cf712aecbfbd5f078069.css integrity="sha512-q+YjqE+LZQVUc9fKtAj33lvvj8wn81Cb7jhMbdcQgBn392y+6zYoJ+KFC43dCOdAKqLATqoBz3Eq7L+9XweAaQ==">
 <script type=text/javascript src=https://e205721harukio.github.io/hugo-blog/js/main.min.cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e.js integrity="sha512-z4PhNX7vuL3xVChQ1m2AB9Yg5AULVxXcg/SpIdNs6c5H0NE8XYXysP+DGNKHfuwvY7kxvUdBeoGlODJ6+SfaPg=="></script>
 <script type=text/javascript src=https://e205721harukio.github.io/hugo-blog/js/appearance.min.49025a779c36ad37a5bf9f1cc6bffd35ccb69ce15560ef1b10057ddf31576265b19f8bcc1733207336c9144926f7b18aea2e5895f29e858b24271332a2fa5cd5.js integrity="sha512-SQJad5w2rTelv58cxr/9Ncy2nOFVYO8bEAV93zFXYmWxn4vMFzMgczbJFEkm97GK6i5YlfKehYskJxMyovpc1Q=="></script>
@@ -16,16 +16,16 @@
 <link rel=icon type=image/png sizes=32x32 href=https://e205721harukio.github.io/hugo-blog/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=https://e205721harukio.github.io/hugo-blog/favicon-16x16.png>
 <link rel=manifest href=https://e205721harukio.github.io/hugo-blog/site.webmanifest>
-<meta property="og:title" content="Hugo Setup">
-<meta property="og:description" content="hugoでサイト生成 hugoでサイト生成 # hugoでブログサ">
+<meta property="og:title" content="Hugoで生成したサイトをGithub Pagesで公開する">
+<meta property="og:description" content="Hugoで作成したサイトをGithubで公開する。 Github Page">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://e205721harukio.github.io/hugo-blog/note/hugo-setup/"><meta property="article:section" content="note">
-<meta property="article:published_time" content="2022-12-10T22:01:42+09:00">
-<meta property="article:modified_time" content="2022-12-10T22:01:42+09:00"><meta property="og:site_name" content="hal blog(仮)">
+<meta property="og:url" content="https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/"><meta property="article:section" content="note">
+<meta property="article:published_time" content="2022-12-17T14:24:38+09:00">
+<meta property="article:modified_time" content="2022-12-17T14:24:38+09:00"><meta property="og:site_name" content="hal blog(仮)">
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Hugo Setup">
-<meta name=twitter:description content="hugoでサイト生成 hugoでサイト生成 # hugoでブログサ">
-<script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Note","name":"Hugo Setup","headline":"Hugo Setup","abstract":"hugoでサイト生成 hugoでサイト生成 # hugoでブログサ","inLanguage":"ja","url":"https:\/\/e205721harukio.github.io\/hugo-blog\/note\/hugo-setup\/","author":{"@type":"Person","name":"hal"},"copyrightYear":"2022","dateCreated":"2022-12-10T22:01:42\u002b09:00","datePublished":"2022-12-10T22:01:42\u002b09:00","dateModified":"2022-12-10T22:01:42\u002b09:00","keywords":["hugo","setup","note"],"mainEntityOfPage":"true","wordCount":"1642"}]</script>
+<meta name=twitter:title content="Hugoで生成したサイトをGithub Pagesで公開する">
+<meta name=twitter:description content="Hugoで作成したサイトをGithubで公開する。 Github Page">
+<script type=application/ld+json>[{"@context":"https://schema.org","@type":"Article","articleSection":"Note","name":"Hugoで生成したサイトをGithub Pagesで公開する","headline":"Hugoで生成したサイトをGithub Pagesで公開する","abstract":"Hugoで作成したサイトをGithubで公開する。 Github Page","inLanguage":"ja","url":"https:\/\/e205721harukio.github.io\/hugo-blog\/note\/hugo-github-pages\/","author":{"@type":"Person","name":"hal"},"copyrightYear":"2022","dateCreated":"2022-12-17T14:24:38\u002b09:00","datePublished":"2022-12-17T14:24:38\u002b09:00","dateModified":"2022-12-17T14:24:38\u002b09:00","keywords":["hugo","note"],"mainEntityOfPage":"true","wordCount":"500"}]</script>
 <meta name=author content="hal">
 <link href=https://github.com/e205721HarukiO rel=me>
 </head><body class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
@@ -157,17 +157,17 @@ Tags
 <a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=https://e205721harukio.github.io/hugo-blog/note/>Note</a><span class="px-1 text-primary-500">/</span>
 </li>
 <li class="inline hidden">
-<a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/>Hugo Setup</a><span class="px-1 text-primary-500">/</span>
+<a class="hover:underline decoration-neutral-300 dark:underline-neutral-600" href=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/>Hugoで生成したサイトをGithub Pagesで公開する</a><span class="px-1 text-primary-500">/</span>
 </li>
 </ol>
 <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-Hugo Setup
+Hugoで生成したサイトをGithub Pagesで公開する
 </h1>
 <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
 <div class="flex flex-row flex-wrap items-center">
-<time datetime="2022-12-10 22:01:42 +0900 +0900">10 12月 2022</time><span class="px-2 text-primary-500">&#183;</span><span>1642 文字</span><span class="px-2 text-primary-500">&#183;</span><span title=読むのに必要な時間>4 分</span><span class="px-2 text-primary-500">&#183;</span>
+<time datetime="2022-12-17 14:24:38 +0900 +0900">17 12月 2022</time><span class="px-2 text-primary-500">&#183;</span><span>500 文字</span><span class="px-2 text-primary-500">&#183;</span><span title=読むのに必要な時間>1 分</span><span class="px-2 text-primary-500">&#183;</span>
 <span class=mb-[2px]>
-<a href=#/note/hugo-setup.md class="text-lg hover:text-primary-500" rel="noopener noreferrer" target=_blank title=編集><span class="inline-block align-text-bottom">
+<a href=#/note/hugo-github-pages.md class="text-lg hover:text-primary-500" rel="noopener noreferrer" target=_blank title=編集><span class="inline-block align-text-bottom">
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M490.3 40.4c21.9 21.87 21.9 57.33.0 79.2l-30 30.1-98-97.98 30.1-30.06C414.3-.2135 449.7-.2135 471.6 21.66L490.3 40.4zM172.4 241.7 339.7 74.34l98 97.96L270.3 339.6C264.2 345.8 256.7 350.4 248.4 353.2l-88.8 29.6C150.1 385.6 141.5 383.4 135 376.1 128.6 370.5 126.4 361 129.2 352.4l29.6-88.8C161.6 255.3 166.2 247.8 172.4 241.7v0zM192 63.1c17.7.0 32 15.23 32 32 0 18.6-14.3 32-32 32H96c-17.67.0-32 15.2-32 32V416c0 17.7 14.33 32 32 32H352c17.7.0 32-14.3 32-32V319.1c0-16.8 14.3-32 32-32s32 15.2 32 32V416c0 53-43 96-96 96H96c-53.02.0-96-43-96-96V159.1c0-53 42.98-96 96-96h96z"/></svg>
 </span>
 </span></a>
@@ -185,13 +185,9 @@ Hugo Setup
 <div class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
 <nav id=TableOfContents>
 <ul>
-<li><a href=#hugoを入れる>hugoを入れる</a></li>
-<li><a href=#hugoでサイトを作る>hugoでサイトを作る。</a></li>
-<li><a href=#themeを入れる>themeを入れる。</a></li>
-<li><a href=#設定を書く>設定を書く</a></li>
-<li><a href=#なんか書く>なんか書く</a></li>
-<li><a href=#確認する>確認する</a></li>
-<li><a href=#サイトを生成>サイトを生成</a></li>
+<li><a href=#hugoでコンテンツ作成>Hugoでコンテンツ作成</a></li>
+<li><a href=#github-actionsを設定>Github Actionsを設定</a></li>
+<li><a href=#github-pagesで公開する>Github pagesで公開する</a></li>
 </ul>
 </nav>
 </div>
@@ -203,13 +199,9 @@ Hugo Setup
 <div class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
 <nav id=TableOfContents>
 <ul>
-<li><a href=#hugoを入れる>hugoを入れる</a></li>
-<li><a href=#hugoでサイトを作る>hugoでサイトを作る。</a></li>
-<li><a href=#themeを入れる>themeを入れる。</a></li>
-<li><a href=#設定を書く>設定を書く</a></li>
-<li><a href=#なんか書く>なんか書く</a></li>
-<li><a href=#確認する>確認する</a></li>
-<li><a href=#サイトを生成>サイトを生成</a></li>
+<li><a href=#hugoでコンテンツ作成>Hugoでコンテンツ作成</a></li>
+<li><a href=#github-actionsを設定>Github Actionsを設定</a></li>
+<li><a href=#github-pagesで公開する>Github pagesで公開する</a></li>
 </ul>
 </nav>
 </div>
@@ -217,97 +209,42 @@ Hugo Setup
 </div>
 </div>
 <div class="min-w-0 min-h-0 max-w-prose">
-<div id=hugoでサイト生成 class=anchor>hugoでサイト生成></div>
-<h1 class="relative group">hugoでサイト生成
+<p>Hugoで作成したサイトをGithubで公開する。<br>
+Github Pages機能で手軽に公開可能。無料で利用可能だが、制限などがあるので確認しておく→<a href=https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages target=_blank>
+Github Docs</a>。</p>
+<pre tabindex=0><code>Hugoでコンテンツ作成
+ → Github Actionsを設定
+ → Github Pagesで公開
+</code></pre><p>といった流れで公開する。</p>
+<p><a href=https://gohugo.io/hosting-and-deployment/hosting-on-github/ target=_blank>
+Host on GitHub (Hugo website)</a>通りにやれば良い。</p>
+<p>以下個人的なメモ.</p>
+<div id=hugoでコンテンツ作成 class=anchor>Hugoでコンテンツ作成></div>
+<h2 class="relative group">Hugoでコンテンツ作成
 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#hugo%e3%81%a7%e3%82%b5%e3%82%a4%e3%83%88%e7%94%9f%e6%88%90 aria-label=アンカー>#</a></span>
-</h1><p>hugoでブログサイトを作ってみる。<br>
-以下自分用のメモ。</p>
-<p>手順としては</p>
-<ul>
-<li>hugoを入れる</li>
-<li>hugoでサイトを作る</li>
-<li>themeを入れる</li>
-<li>設定する</li>
-<li>何か書く</li>
-<li>確認する</li>
-<li>サイト生成</li>
-</ul>
-<div id=hugoを入れる class=anchor>hugoを入れる></div>
-<h2 class="relative group">hugoを入れる
+<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#hugo%e3%81%a7%e3%82%b3%e3%83%b3%e3%83%86%e3%83%b3%e3%83%84%e4%bd%9c%e6%88%90 aria-label=アンカー>#</a></span>
+</h2><p><a href=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/>
+hugoでのブログ作成</a></p>
+<p><code>config.toml</code>で以下の設定を記述</p>
+<pre tabindex=0><code>baseURL = &quot;https://e205721harukio.github.io/&lt;Githubのリポジトリ名&gt;/&quot;
+canonifyurls = true
+</code></pre><p>上記設定をしておかないと、テーマの見た目が崩れるなどする。</p>
+<div id=github-actionsを設定 class=anchor>Github Actionsを設定></div>
+<h2 class="relative group">Github Actionsを設定
 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#hugo%e3%82%92%e5%85%a5%e3%82%8c%e3%82%8b aria-label=アンカー>#</a></span>
-</h2><p>homebrewで入れる。<br>
-<code>brew update</code>して、<code>brew install hugo</code>。<br>
-アップデートは<code>brew upgrade hugo</code>。</p>
-<p><code>hugo --version</code>して大丈夫そうならおk。</p>
-<div id=hugoでサイトを作る class=anchor>hugoでサイトを作る。></div>
-<h2 class="relative group">hugoでサイトを作る。
+<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#github-actions%e3%82%92%e8%a8%ad%e5%ae%9a aria-label=アンカー>#</a></span>
+</h2><p><a href=https://github.com/marketplace/actions/hugo-setup target=_blank>
+これ</a>を参考にして記述する。</p>
+<p><code>.github/workflows/gh-pages.yml</code>を作成し、上記サイトからコピペする。</p>
+<div id=github-pagesで公開する class=anchor>Github pagesで公開する></div>
+<h2 class="relative group">Github pagesで公開する
 <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#hugo%e3%81%a7%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e4%bd%9c%e3%82%8b aria-label=アンカー>#</a></span>
-</h2><p><code>hugo new site name</code>を実行すると、<code>name</code>フォルダが生成される。</p>
-<p><code>cd name</code>でフォルダに移動。</p>
-<p>このタイミングで<code>git init</code>しておく。</p>
-<div id=themeを入れる class=anchor>themeを入れる。></div>
-<h2 class="relative group">themeを入れる。
-<span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#theme%e3%82%92%e5%85%a5%e3%82%8c%e3%82%8b aria-label=アンカー>#</a></span>
-</h2><p><code>hugo theme</code>とかでggると、<a href=https://themes.gohugo.io target=_blank>
-hugoのthemeサイト</a>があるので、そこで使いたいものを探す。</p>
-<p>個人的に、検索機能が手軽に使えるととうれしいので、検索機能が手軽に使えそうなテーマを探した。</p>
-<p>今回は<a href=https://themes.gohugo.io/themes/blowfish/ target=_blank>
-blow fish</a>というthemeが目に入ったので、こちらを導入。coolなテーマだと思います。</p>
-<p>テーマを選んだら、その配布元で入れ方とか書いてある(Getting StartedやQuick Startとか)ので、それ通りにやればよい。</p>
-<p>hugo modで導入もできるようだが、今回はgit submoduleがrecommendedだったのでgit submoduleで導入。</p>
-<div id=設定を書く class=anchor>設定を書く></div>
-<h2 class="relative group">設定を書く
-<span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#%e8%a8%ad%e5%ae%9a%e3%82%92%e6%9b%b8%e3%81%8f aria-label=アンカー>#</a></span>
-</h2><p>テーマ配布元にある設定をそのままやっておけばよい。<br>
-最低限、<code>./config.toml</code>に<code>themes="テーマ名"</code>があれば動くはず。テーマ名とは、<code>themes/</code>以下のテーマのフォルダ名。</p>
-<p>このサイト自体もほとんど配布下の設定を流用している。画像や説明文を変えたり、言語の設定を日本語にできる(とdocumentに書いてあった)ので<code>languages="ja"</code>にしたり、フォルダ名の一部を<code>*_en_*</code>から<code>*_ja_*</code>にしたりするなどした。</p>
-<div id=なんか書く class=anchor>なんか書く></div>
-<h2 class="relative group">なんか書く
-<span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#%e3%81%aa%e3%82%93%e3%81%8b%e6%9b%b8%e3%81%8f aria-label=アンカー>#</a></span>
-</h2><p>hugoでは</p>
-<pre tabindex=0><code>hugo new siteでつくったフォルダ
-|- config/
-    |- _default/
-        |- config.toml # 複数configファイルがある時は、このようにconfig/_default以下に置く。複数ないならべた置きでおk。
-        |- *.toml
-|- content/
-    |- _index.md  # トップページ
-    |- hoge.md
-    |- posts/
-        |- _index.md  # posts/のトップページ
-        |- hoge.md
-|- その他
-</code></pre><p>のようなフォルダ構成になる。</p>
-<p>記事の作成にはコマンドを使う。<br>
-<code> hugo new 作りたい記事名.md</code>をすると、<code>content/作りたい記事名.md</code>ファイルが生成される。<br>
-また、<code> hugo new hoge/huga.md</code>とすると、<code>content/hoge/huga.md</code>ファイルが生成される。このときhogeフォルダがなくても、フォルダを作ってくれる。</p>
-<p>記事を生成したら書き込む。<br>
-冒頭の<code>---</code>で囲まれている部分は記事の設定となる。<code>Draft</code>は下書き設定で、<code>true</code>だとサイト生成時に表示されないので、<code>false</code>にするか<code>Draft</code>ごと消す。<br>
-<code>categories : [ "カテゴリ名" ]</code>や<code>tags : [ "タグ名", "タグ名" ]</code>のようにカテゴリやタグも設定できる。<br>
-この辺は設定でデフォルトをいじれる。<code>archetypes/default.md</code>がテンプレートになっている。</p>
-<p>動作確認用に、トップページとpostsページに何か書いてみる。</p>
-<p><code>hugo new _index.md</code>して、<code>vim content/_index.md</code>でなんか書く。<br>
-<code>hugo new posts/_index.md</code>, <code>hugo new posts/my-first-post.md</code>して開き、何かしらを書く。<code>draft</code>を消すかfalseにするのを忘れないように。</p>
-<div id=確認する class=anchor>確認する></div>
-<h2 class="relative group">確認する
-<span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#%e7%a2%ba%e8%aa%8d%e3%81%99%e3%82%8b aria-label=アンカー>#</a></span>
-</h2><p><code>hugo server</code>を実行し、<code>localhost:1313</code>をブラウザで確認。</p>
-<p><code>hugo server -D</code>とすると、draft状態の記事も確認可能。</p>
-<div id=サイトを生成 class=anchor>サイトを生成></div>
-<h2 class="relative group">サイトを生成
-<span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92%e7%94%9f%e6%88%90 aria-label=アンカー>#</a></span>
-</h2><p><code>hugo</code>と実行すれば<code>public</code>フォルダが生成され、それ以下に公開用のhtmlファイルなどが生成される。公開する時はpublicフォルダの中身をサーバーに配置するなどする。</p>
+<a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style=text-decoration-line:none!important href=#github-pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b aria-label=アンカー>#</a></span>
+</h2><p>上記までの設定でGithubへpushすると、Github Actionsが動作する。</p>
+<p><code>gh-pages</code>ブランチができるため、これをGithub Pagesに設定する。</p>
 </br></br>
 </div>
-<script>var liked_article=!1,oid,id,viewed,oid_likes,id_likes,liked;typeof auth!='undefined'&&(oid="views_note/hugo-setup.md",id=oid&&oid.replaceAll("/","-"),viewed=localStorage.getItem(id),viewed||auth.signInAnonymously().then(()=>{var a=db.collection('views').doc(id);localStorage.setItem(id,!0),a.get().then(a=>{a.exists?db.collection('views').doc(id).update({views:firebase.firestore.FieldValue.increment(1)}):db.collection('views').doc(id).set({views:1})}).catch(a=>{console.log("Error getting document:",a)})}).catch(a=>{var b=a.code,c=a.message;console.error(b,c)}),oid_likes="likes_note/hugo-setup.md",id_likes=oid_likes&&oid_likes.replaceAll("/","-"),liked=localStorage.getItem(id_likes),liked&&(liked_article=!0,document.querySelectorAll("span[id='likes_button_heart']")[0].style.display="",document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display="none",document.querySelectorAll("span[id='likes_button_text']")[0].innerText=""));function like_article(a){auth.signInAnonymously().then(()=>{var b=db.collection('likes').doc(a);b.get().then(b=>{liked_article=!0,localStorage.setItem(a,!0),document.querySelectorAll("span[id='likes_button_heart']")[0].style.display="",document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display="none",document.querySelectorAll("span[id='likes_button_text']")[0].innerText="",b.exists?db.collection('likes').doc(a).update({likes:firebase.firestore.FieldValue.increment(1)}):db.collection('likes').doc(a).set({likes:1})}).catch(a=>{console.log("Error getting document:",a)})}).catch(a=>{var b=a.code,c=a.message;console.error(b,c)})}function remove_like_article(a){auth.signInAnonymously().then(()=>{var b=db.collection('likes').doc(a);b.get().then(b=>{liked_article=!1,localStorage.removeItem(a),document.querySelectorAll("span[id='likes_button_heart']")[0].style.display="none",document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display="",document.querySelectorAll("span[id='likes_button_text']")[0].innerText="\xa0Like",b.exists?db.collection('likes').doc(a).update({likes:firebase.firestore.FieldValue.increment(-1)}):db.collection('likes').doc(a).set({likes:0})}).catch(a=>{console.log("Error getting document:",a)})}).catch(a=>{var b=a.code,c=a.message;console.error(b,c)})}function process_article(){var a="likes_note/hugo-setup.md",b=a&&a.replaceAll("/","-");liked_article?remove_like_article(b):like_article(b)}</script>
+<script>var liked_article=!1,oid,id,viewed,oid_likes,id_likes,liked;typeof auth!='undefined'&&(oid="views_note/hugo-github-pages.md",id=oid&&oid.replaceAll("/","-"),viewed=localStorage.getItem(id),viewed||auth.signInAnonymously().then(()=>{var a=db.collection('views').doc(id);localStorage.setItem(id,!0),a.get().then(a=>{a.exists?db.collection('views').doc(id).update({views:firebase.firestore.FieldValue.increment(1)}):db.collection('views').doc(id).set({views:1})}).catch(a=>{console.log("Error getting document:",a)})}).catch(a=>{var b=a.code,c=a.message;console.error(b,c)}),oid_likes="likes_note/hugo-github-pages.md",id_likes=oid_likes&&oid_likes.replaceAll("/","-"),liked=localStorage.getItem(id_likes),liked&&(liked_article=!0,document.querySelectorAll("span[id='likes_button_heart']")[0].style.display="",document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display="none",document.querySelectorAll("span[id='likes_button_text']")[0].innerText=""));function like_article(a){auth.signInAnonymously().then(()=>{var b=db.collection('likes').doc(a);b.get().then(b=>{liked_article=!0,localStorage.setItem(a,!0),document.querySelectorAll("span[id='likes_button_heart']")[0].style.display="",document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display="none",document.querySelectorAll("span[id='likes_button_text']")[0].innerText="",b.exists?db.collection('likes').doc(a).update({likes:firebase.firestore.FieldValue.increment(1)}):db.collection('likes').doc(a).set({likes:1})}).catch(a=>{console.log("Error getting document:",a)})}).catch(a=>{var b=a.code,c=a.message;console.error(b,c)})}function remove_like_article(a){auth.signInAnonymously().then(()=>{var b=db.collection('likes').doc(a);b.get().then(b=>{liked_article=!1,localStorage.removeItem(a),document.querySelectorAll("span[id='likes_button_heart']")[0].style.display="none",document.querySelectorAll("span[id='likes_button_emtpty_heart']")[0].style.display="",document.querySelectorAll("span[id='likes_button_text']")[0].innerText="\xa0Like",b.exists?db.collection('likes').doc(a).update({likes:firebase.firestore.FieldValue.increment(-1)}):db.collection('likes').doc(a).set({likes:0})}).catch(a=>{console.log("Error getting document:",a)})}).catch(a=>{var b=a.code,c=a.message;console.error(b,c)})}function process_article(){var a="likes_note/hugo-github-pages.md",b=a&&a.replaceAll("/","-");liked_article?remove_like_article(b):like_article(b)}</script>
 </section>
 <footer class="pt-8 max-w-prose print:hidden">
 <div class=flex>
@@ -330,27 +267,27 @@ hal
 </div>
 </div>
 <section class="flex flex-row flex-wrap justify-center pt-4 text-xl">
-<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="mailto:?body=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/&subject=Hugo%20Setup" title=" Eメールを送る" aria-label=" Eメールを送る">
+<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="mailto:?body=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/&subject=Hugo%e3%81%a7%e7%94%9f%e6%88%90%e3%81%97%e3%81%9f%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92Github%20Pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b" title=" Eメールを送る" aria-label=" Eメールを送る">
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1-27.64 140.9 68.65 266.2 199.1 285.1 19.01 2.888 36.17-12.26 36.17-31.49l1e-4-.6631c0-15.74-11.44-28.88-26.84-31.24-84.35-12.98-149.2-86.13-149.2-174.2.0-102.9 88.61-185.5 193.4-175.4 91.54 8.869 158.6 91.25 158.6 183.2v16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98.0036c-7.299.0-13.2 4.992-15.12 11.68-24.85-12.15-54.24-16.38-86.06-5.106-38.75 13.73-68.12 48.91-73.72 89.64-9.483 69.01 43.81 128 110.9 128 26.44.0 50.43-9.544 69.59-24.88 24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3c0-149.2-133.9-265.632-287.3-235.57zM239.1 304.3c-26.47.0-48-21.56-48-48.05s21.53-48.05 48-48.05 48 21.56 48 48.05-20.6 48.05-48 48.05z"/></svg>
 </span>
 </a>
-<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://www.facebook.com/sharer/sharer.php?u=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/&quote=Hugo%20Setup" title=Facebookでシェアする aria-label=Facebookでシェアする>
+<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://www.facebook.com/sharer/sharer.php?u=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/&quote=Hugo%e3%81%a7%e7%94%9f%e6%88%90%e3%81%97%e3%81%9f%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92Github%20Pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b" title=Facebookでシェアする aria-label=Facebookでシェアする>
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14.0 55.52 4.84 55.52 4.84v61h-31.28c-30.8.0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
 </span>
 </a>
-<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://www.linkedin.com/shareArticle?mini=true&url=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/&title=Hugo%20Setup" title=LinkedInでシェアする aria-label=LinkedInでシェアする>
+<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://www.linkedin.com/shareArticle?mini=true&url=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/&title=Hugo%e3%81%a7%e7%94%9f%e6%88%90%e3%81%97%e3%81%9f%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92Github%20Pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b" title=LinkedInでシェアする aria-label=LinkedInでシェアする>
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentcolor" d="M416 32H31.9C14.3 32 0 46.5.0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6.0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3.0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2.0 38.5 17.3 38.5 38.5.0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6.0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2.0 79.7 44.3 79.7 101.9V416z"/></svg>
 </span>
 </a>
-<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://pinterest.com/pin/create/bookmarklet/?url=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/&description=Hugo%20Setup" title=Pinterestでピンする aria-label=Pinterestでピンする>
+<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://pinterest.com/pin/create/bookmarklet/?url=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/&description=Hugo%e3%81%a7%e7%94%9f%e6%88%90%e3%81%97%e3%81%9f%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92Github%20Pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b" title=Pinterestでピンする aria-label=Pinterestでピンする>
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentcolor" d="M496 256c0 137-111 248-248 248-25.6.0-50.2-3.9-73.4-11.1 10.1-16.5 25.2-43.5 30.8-65 3-11.6 15.4-59 15.4-59 8.1 15.4 31.7 28.5 56.8 28.5 74.8.0 128.7-68.8 128.7-154.3.0-81.9-66.9-143.2-152.9-143.2-107 0-163.9 71.8-163.9 150.1.0 36.4 19.4 81.7 50.3 96.1 4.7 2.2 7.2 1.2 8.3-3.3.8-3.4 5-20.3 6.9-28.1.6-2.5.3-4.7-1.7-7.1-10.1-12.5-18.3-35.3-18.3-56.6.0-54.7 41.4-107.6 112-107.6 60.9.0 103.6 41.5 103.6 100.9.0 67.1-33.9 113.6-78 113.6-24.3.0-42.6-20.1-36.7-44.8 7-29.5 20.5-61.3 20.5-82.6.0-19-10.2-34.9-31.4-34.9-24.9.0-44.9 25.7-44.9 60.2.0 22 7.4 36.8 7.4 36.8s-24.5 103.8-29 123.2c-5 21.4-3 51.6-.9 71.2C65.4 450.9.0 361.1.0 256 0 119 111 8 248 8s248 111 248 248z"/></svg>
 </span>
 </a>
-<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://reddit.com/submit/?url=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/&resubmit=true&title=Hugo%20Setup" title=Redditに投稿する aria-label=Redditに投稿する>
+<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://reddit.com/submit/?url=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/&resubmit=true&title=Hugo%e3%81%a7%e7%94%9f%e6%88%90%e3%81%97%e3%81%9f%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92Github%20Pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b" title=Redditに投稿する aria-label=Redditに投稿する>
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M201.5 305.5c-13.8.0-24.9-11.1-24.9-24.6.0-13.8 11.1-24.9 24.9-24.9 13.6.0 24.6 11.1 24.6 24.9.0 13.6-11.1 24.6-24.6 24.6zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-132.3-41.2c-9.4.0-17.7 3.9-23.8 10-22.4-15.5-52.6-25.5-86.1-26.6l17.4-78.3 55.4 12.5c0 13.6 11.1 24.6 24.6 24.6 13.8.0 24.9-11.3 24.9-24.9s-11.1-24.9-24.9-24.9c-9.7.0-18 5.8-22.1 13.8l-61.2-13.6c-3-.8-6.1 1.4-6.9 4.4l-19.1 86.4c-33.2 1.4-63.1 11.3-85.5 26.8-6.1-6.4-14.7-10.2-24.1-10.2-34.9.0-46.3 46.9-14.4 62.8-1.1 5-1.7 10.2-1.7 15.5.0 52.6 59.2 95.2 132 95.2 73.1.0 132.3-42.6 132.3-95.2.0-5.3-.6-10.8-1.9-15.8 31.3-16 19.8-62.5-14.9-62.5zM302.8 331c-18.2 18.2-76.1 17.9-93.6.0-2.2-2.2-6.1-2.2-8.3.0-2.5 2.5-2.5 6.4.0 8.6 22.8 22.8 87.3 22.8 110.2.0 2.5-2.2 2.5-6.1.0-8.6-2.2-2.2-6.1-2.2-8.3.0zm7.7-75c-13.6.0-24.6 11.1-24.6 24.9.0 13.6 11.1 24.6 24.6 24.6 13.8.0 24.9-11.1 24.9-24.6.0-13.8-11-24.9-24.9-24.9z"/></svg>
 </span>
 </a>
-<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://twitter.com/intent/tweet/?url=https://e205721harukio.github.io/hugo-blog/note/hugo-setup/&text=Hugo%20Setup" title=Twitterに投稿する aria-label=Twitterに投稿する>
+<a target=_blank class="m-1 rounded bg-neutral-300 p-1.5 text-neutral-700 hover:bg-primary-500 hover:text-neutral dark:bg-neutral-700 dark:text-neutral-300 dark:hover:bg-primary-400 dark:hover:text-neutral-800" href="https://twitter.com/intent/tweet/?url=https://e205721harukio.github.io/hugo-blog/note/hugo-github-pages/&text=Hugo%e3%81%a7%e7%94%9f%e6%88%90%e3%81%97%e3%81%9f%e3%82%b5%e3%82%a4%e3%83%88%e3%82%92Github%20Pages%e3%81%a7%e5%85%ac%e9%96%8b%e3%81%99%e3%82%8b" title=Twitterに投稿する aria-label=Twitterに投稿する>
 <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentcolor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645.0 138.72-105.583 298.558-298.558 298.558-59.452.0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055.0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421.0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391.0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04.0-57.828 46.782-104.934 104.934-104.934 30.213.0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
 </span>
 </a>
@@ -359,18 +296,18 @@ hal
 <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
 <div class="flex justify-between pt-3">
 <span>
+<a class="flex group" href=https://e205721harukio.github.io/hugo-blog/note/hugo/>
+<span class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400">&larr;</span>
+<span class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400">&rarr;</span>
+<span class="flex flex-col">
+<span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Hugo</span>
+<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+<time datetime="2022-12-11 17:26:17 +0900 +0900">11 12月 2022</time>
+</span>
+</span>
+</a>
 </span>
 <span>
-<a class="flex text-right group" href=https://e205721harukio.github.io/hugo-blog/note/blog-setup/>
-<span class="flex flex-col">
-<span class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500">Blog Setup</span>
-<span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-<time datetime="2022-12-11 10:39:43 +0900 +0900">11 12月 2022</time>
-</span>
-</span>
-<span class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400">&rarr;</span>
-<span class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400">&larr;</span>
-</a>
 </span>
 </div>
 </div>
