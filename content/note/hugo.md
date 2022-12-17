@@ -10,3 +10,5 @@ hugoでブログ作成したので、そのメモのまとめ。
 [hugoでのブログ作成]({{< ref "/note/hugo-setup.md" >}})  
 
 [hugoとthemeの設定]({{< ref "/note/blog-setup.md" >}})  
+
+[hugo + github pages + github actions]({{ref "/note/hugo-github-pages.md"}})
