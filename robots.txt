@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://e205721harukio.github.io/hugo-blog/sitemap.xml
+Sitemap: https://OhalK78.github.io/hugo-blog/sitemap.xml
