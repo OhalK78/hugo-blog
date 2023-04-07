@@ -3,7 +3,7 @@
 # https://nunocoracao.github.io/blowfish/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://e205721harukio.github.io/hugo-blog/"
+baseURL = "https://OhalK78.github.io/hugo-blog/"
 canonifyurls = true
 defaultContentLanguage = "ja"
 
