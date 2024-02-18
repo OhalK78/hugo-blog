@@ -1,6 +1,6 @@
 # hugo blog
 
-URL: https://OhalK78.github.io/hugo-blog/
+URL: https://OshiroHaruki.github.io/hugo-blog/
 
 ## 記事を書く
 ブログ作成は  
